@@ -1,0 +1,192 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible", content="IE-edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1")
+        title P_Rex Weather
+        link(href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css", rel="stylesheet", type="text/css")
+        link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css", rel="stylesheet", type="text/css")
+        link(href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.css", rel="stylesheet", type="text/css")
+        link(href="https://fonts.googleapis.com/css?family=Montserrat", rel="stylesheet", type="text/css")
+        link(href="https://fonts.googleapis.com/css?family=Hind:400,300", rel="stylesheet", type="text/css")
+        link(href="css/style.css", rel="stylesheet")
+    body
+        nav.navbar.navbar-custom.navbar-fixed-top
+            div.container
+                div.navbar-header
+                    button.navbar-toggle(type='button', data-toggle='collapse' data-target='.navbar-collapse')
+                        span.sr-only Toggle Navigation
+                        span.icon-bar
+                        span.icon-bar
+                        span.icon-bar
+                    a.navbar-brand(href='#home') P_Rex  Studio
+                div.collapse.navbar-collapse
+                    ul.nav.navbar-nav.navbar-right
+                        li
+                            a(href='#home') Home
+                        li
+                            a(href='#about') About
+                        li
+                            a(href='#competencies') Competencies
+                        li
+                            a(href='#portfolio') Portfolio
+                        li
+                            a(href='#contact') Contact
+        div.jumbotron#home.vertical-align
+            div.container
+                div.text-center
+                    h1 P_Rex Studio
+                    div.row
+                        div.col-xs-3
+                            hr
+                        div.col-xs-6
+                            p Where bomb-diggity blows up in your grill
+                        div.col-xs-3
+                            hr
+                    a.btn.btn-primary.btn-lg.btn-about(href='#about') Learn More!
+                    a.about-icon(href='#about')
+                        i.fa.fa-arrow-circle-o-down.fa-5x
+        div.jumbotron#about
+            div.container
+                div.row.text-center
+                    div.col-xs-4.col-xs-offset-4.col-md-2.col-md-offset-5
+                        h2 About
+                        hr
+                div.row.vertical-align
+                    div.col-md-5
+                        img.img-circle.img-responsive.hidden-xs.hidden-sm.img-portrait(src='http://boombook.boomtownroi.com/static/images/test/cooke_frank.jpg')
+                    div.col-md-5.col-md-offset-1.col-sm-10.col-sm-offset-1
+                        p.lead Hello world! I'm a self-taught, and aspiring full stack web developer with a passion for building cool things.
+                        p.lead When I'm not cranking out some code, you can find me picking and playing my collection of instruments, wrenching/riding my cb350, or out in the water trying to catch a wave or two. I'm also a former tennis teaching professional and I've been known to play some ping pong as well.
+                        p.lead My better half and pup are my life line, and ultimately the most important things in my life. Without them none of this is possible and the package just isn't complete.
+        div.jumbotron#competencies
+            div.container
+                div.row.text-center
+                    div.col-sm-4.col-sm-offset-4.col-xs-8.col-xs-offset-2
+                        h2 Competencies
+                        hr
+                div.row.text-center
+                    div.col-sm-6.col-md-3
+                        i.devicon-angularjs-plain.devicons
+                        p.lead Angular
+                    div.col-sm-6.col-md-3
+                        i.devicon-bootstrap-plain.devicons
+                        p.lead BootStrap
+                    div.col-sm-6.col-md-3
+                        i.devicon-css3-plain.devicons
+                        p.lead CSS3
+                    div.col-sm-6.col-md-3
+                        i.devicon-sass-plain.devicons
+                        p.lead Sass
+                    div.col-sm-6.col-md-3
+                        i.devicon-html5-plain.devicons
+                        p.lead HTML5
+                    div.col-sm-6.col-md-3
+                        i.devicon-javascript-plain.devicons
+                        p.lead Javascript
+                    div.col-sm-6.col-md-3
+                        i.devicon-jquery-plain.devicons
+                        p.lead jQuery
+                    div.col-sm-6.col-md-3
+                        i.devicon-mongodb-plain.devicons
+                        p.lead Mongodb
+                    div.col-sm-6.col-md-3
+                        i.devicon-mysql-plain.devicons
+                        p.lead MySQL
+                    div.col-sm-6.col-md-3
+                        i.devicon-php-plain.devicons
+                        p.lead PHP
+                    div.col-sm-6.col-md-3
+                        i.devicon-git-plain.devicons
+                        p.lead Git
+                    div.col-sm-6.col-md-3
+                        i.devicon-jetbrains-plain.devicons
+                        p.lead Jetbrains
+                    div.col-sm-6.col-md-3
+                        i.devicon-grunt-plain.devicons
+                        p.lead Grunt
+                    div.col-sm-6.col-md-3
+                        i.devicon-coffeescript-plain.devicons
+                        p.lead CoffeeScript
+                    div.col-sm-6.col-md-3
+                        i.devicon-bower-plain.devicons
+                        p.lead Bower
+                    div.col-sm-6.col-md-3
+                        i.devicon-apple-plain.devicons
+                        p.lead Apple
+        div.jumbotron#portfolio
+            div.container
+                div.row.text-center
+                    div.col-xs-6.col-xs-offset-3.col-md-2.col-md-offset-5
+                        h2.text-center Portfolio
+                        hr
+                div.row
+                    div.col-xs-8.col-xs-offset-2.col-sm-8.col-sm-offset-2
+                        div.row.text-center
+                            div.col-sm-6.col-xs-12
+                                div.portfolio-item
+                                    a(ahref='#')
+                                        div.portfolio-overlay
+                                            i.fa.fa-cog.fa-2x.fa-spin
+                                        img.img-responsive(src='https://melbourne-systems.s3.amazonaws.com/asset/file/4fb32d6257817e6d1d000003/placeholder-images.gif')
+                            div.col-sm-6.col-xs-12
+                                div.portfolio-item
+                                    a(ahref='#')
+                                        div.portfolio-overlay
+                                            i.fa.fa-cog.fa-2x.fa-spin
+                                        img.img-responsive(src='https://melbourne-systems.s3.amazonaws.com/asset/file/4fb32d6257817e6d1d000003/placeholder-images.gif')
+                            div.col-sm-6.col-xs-12
+                                div.portfolio-item
+                                    a(ahref='#')
+                                        div.portfolio-overlay
+                                            i.fa.fa-cog.fa-2x.fa-spin
+                                        img.img-responsive(src='https://melbourne-systems.s3.amazonaws.com/asset/file/4fb32d6257817e6d1d000003/placeholder-images.gif')
+                            div.col-sm-6.col-xs-12
+                                div.portfolio-item
+                                    a(ahref='#')
+                                        div.portfolio-overlay
+                                            i.fa.fa-cog.fa-2x.fa-spin
+                                        img.img-responsive(src='https://melbourne-systems.s3.amazonaws.com/asset/file/4fb32d6257817e6d1d000003/placeholder-images.gif')
+        div.jumbotron#contact
+            div.container
+                div.row
+                    div.col-xs-4.col-xs-offset-4.col-md-2.col-md-offset-5
+                        h2.text-center Contact
+                        hr
+                div.row.text-center.contact-info
+                    div.col-xs-6.col-xs-offset-3
+                        h3 P_Rex Studio
+                        p
+                            i.fa.fa-location-arrow.fa-1x
+                            span  321 Noneyour Ln, Charleston SC 29403
+                        p
+                            i.fa.fa-envelope-o
+                                a(href='mailto:prex@prexstudio.com')  prex@prexstudio.com
+                        p
+                            i.fa.fa-phone
+                                a(href='tel:8438675309')  (843) 867-5309
+                div.row.text-center.social
+                    div.col-xs-8.col-xs-offset-2.col-md-6.col-md-offset-3
+                        div.col-xs-4.social-icons
+                            a(href='https://www.facebook.com/platypus.rex.5', target='_blank')
+                                i.fa.fa-facebook-official.fa-3x
+                        div.col-xs-4.social-icons
+                            a(href='https://github.com/platypusrex', target='_blank')
+                                i.fa.fa-github.fa-3x
+                        div.col-xs-4.social-icons
+                            a(href='https://www.linkedin.com/pub/frank-cooke/52/628/825', target='_blank')
+                                i.fa.fa-linkedin-square.fa-3x
+                        div.col-xs-4.social-icons
+                            a(href='http://codepen.io/p_rex/', target='_blank')
+                                i.fa.fa-codepen.fa-3x
+                        div.col-xs-4.social-icons
+                            a(href='http://stackoverflow.com/users/5290397/p-rex', target='_blank')
+                                i.fa.fa-stack-overflow.fa-3x
+                        div.col-xs-4.social-icons
+                            a(href='http://www.piedpiper.com/', target='_blank')
+                                i.fa.fa-pied-piper.fa-3x
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js", type="text/javascript")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js", type="text/javascript")
+        script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js", type="text/javascript")
+        script(src="js/portfolio.js", text="javascript")
